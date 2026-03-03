@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_APPLICATIONTARGET>
+        <au_connectorId><![CDATA[null]]></au_connectorId>
+        <au_modifiedBy><![CDATA[IndigoUser:1476856718371172352]]></au_modifiedBy>
+        <au_synchronized><![CDATA[false]]></au_synchronized>
+        <au_fileName><![CDATA[${Config:FName}]]></au_fileName>
+        <au_parameterJson><![CDATA[{}]]></au_parameterJson>
+        <au_activeVersion><![CDATA[true]]></au_activeVersion>
+        <au_description><![CDATA[bd_AzureBlob_Application_Trg]]></au_description>
+        <au_deleteOnSuccess><![CDATA[false]]></au_deleteOnSuccess>
+        <au_referenceField><![CDATA[]]></au_referenceField>
+        <au_resSchemaId><![CDATA[null]]></au_resSchemaId>
+        <au_version><![CDATA[1]]></au_version>
+        <au_userOwner><![CDATA[IndigoUser:1476856718371172352]]></au_userOwner>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_modifiedDate><![CDATA[2026-02-27 11:50:25.617]]></au_modifiedDate>
+        <au_projectOwner><![CDATA[Project:11484550701988]]></au_projectOwner>
+        <au_reqSchemaId><![CDATA[null]]></au_reqSchemaId>
+        <au_filterIn><![CDATA[]]></au_filterIn>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_id><![CDATA[1476909337084751872]]></au_id>
+        <au_adapterType><![CDATA[microsoftazure]]></au_adapterType>
+        <au_destAction><![CDATA[PutBlockBlob]]></au_destAction>
+        <au_accountId><![CDATA[OAuthAccount:1476901922276700160]]></au_accountId>
+        <au_fileBaseLocation><![CDATA[]]></au_fileBaseLocation>
+        <au_entityName><![CDATA[bd_AzureBlob_Application_Trg]]></au_entityName>
+        <au_filePattern><![CDATA[0|0|N]]></au_filePattern>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_adapterProtocol><![CDATA[oauth]]></au_adapterProtocol>
+        <au_operation><![CDATA[null]]></au_operation>
+        <au_creationDate><![CDATA[2026-02-27 11:50:25.617]]></au_creationDate>
+        <au_externalId><![CDATA[null]]></au_externalId>
+    </AU_APPLICATIONTARGET>
+    <columnInfo dbtype="0">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="-7"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="-7"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_adapterType" type="12"/>
+        <column name="au_accountId" type="12"/>
+        <column name="au_adapterProtocol" type="12"/>
+        <column name="au_operation" type="12"/>
+        <column name="au_referenceField" type="12"/>
+        <column name="au_externalId" type="12"/>
+        <column name="au_fileBaseLocation" type="12"/>
+        <column name="au_fileName" type="12"/>
+        <column name="au_filePattern" type="12"/>
+        <column name="au_parameterJson" type="12"/>
+        <column name="au_destAction" type="12"/>
+        <column name="au_reqSchemaId" type="12"/>
+        <column name="au_resSchemaId" type="12"/>
+        <column name="au_filterIn" type="12"/>
+        <column name="au_deleteOnSuccess" type="-7"/>
+        <column name="au_connectorId" type="12"/>
+    </columnInfo>
+</data>
