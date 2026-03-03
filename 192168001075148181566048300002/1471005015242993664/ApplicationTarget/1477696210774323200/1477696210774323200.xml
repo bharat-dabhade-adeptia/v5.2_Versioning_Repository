@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_APPLICATIONTARGET>
+        <au_adapterProtocol><![CDATA[connector]]></au_adapterProtocol>
+        <au_userOwner><![CDATA[IndigoUser:1476856718371172352]]></au_userOwner>
+        <au_adapterType><![CDATA[1346366968592535552]]></au_adapterType>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_entityName><![CDATA[Target_1477696073360535552_4]]></au_entityName>
+        <au_creationDate><![CDATA[2026-03-01 15:57:10.917]]></au_creationDate>
+        <au_description><![CDATA[Target_1477696073360535552_4]]></au_description>
+        <au_deleteOnSuccess><![CDATA[false]]></au_deleteOnSuccess>
+        <au_operation><![CDATA[Update Issue]]></au_operation>
+        <au_filterIn><![CDATA[null]]></au_filterIn>
+        <au_referenceField><![CDATA[{"dynamicParams":[],"pathparams":[{"issueIdOrKey":"ACTN-322"}],"queryparams":[],"headerparams":[],"customparams":[]}]]></au_referenceField>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_modifiedDate><![CDATA[2026-03-01 15:57:10.917]]></au_modifiedDate>
+        <au_accountId><![CDATA[1476985148290691072]]></au_accountId>
+        <au_externalId><![CDATA[]]></au_externalId>
+        <au_fileBaseLocation><![CDATA[null]]></au_fileBaseLocation>
+        <au_activeVersion><![CDATA[true]]></au_activeVersion>
+        <au_projectOwner><![CDATA[Project:1471005015242993664]]></au_projectOwner>
+        <au_connectorId><![CDATA[null]]></au_connectorId>
+        <au_reqSchemaId><![CDATA[null]]></au_reqSchemaId>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_resSchemaId><![CDATA[null]]></au_resSchemaId>
+        <au_version><![CDATA[1]]></au_version>
+        <au_filePattern><![CDATA[null]]></au_filePattern>
+        <au_destAction><![CDATA[null]]></au_destAction>
+        <au_id><![CDATA[1477696210774323200]]></au_id>
+        <au_synchronized><![CDATA[false]]></au_synchronized>
+        <au_fileName><![CDATA[null]]></au_fileName>
+        <au_parameterJson><![CDATA[{"dynamicParams":[],"pathparams":[{"issueIdOrKey":"ACTN-322"}],"queryparams":[],"headerparams":[],"customparams":[]}]]></au_parameterJson>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_modifiedBy><![CDATA[IndigoUser:1476856718371172352]]></au_modifiedBy>
+    </AU_APPLICATIONTARGET>
+    <columnInfo dbtype="0">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="-7"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="-7"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_adapterType" type="12"/>
+        <column name="au_accountId" type="12"/>
+        <column name="au_adapterProtocol" type="12"/>
+        <column name="au_operation" type="12"/>
+        <column name="au_referenceField" type="12"/>
+        <column name="au_externalId" type="12"/>
+        <column name="au_fileBaseLocation" type="12"/>
+        <column name="au_fileName" type="12"/>
+        <column name="au_filePattern" type="12"/>
+        <column name="au_parameterJson" type="12"/>
+        <column name="au_destAction" type="12"/>
+        <column name="au_reqSchemaId" type="12"/>
+        <column name="au_resSchemaId" type="12"/>
+        <column name="au_filterIn" type="12"/>
+        <column name="au_deleteOnSuccess" type="-7"/>
+        <column name="au_connectorId" type="12"/>
+    </columnInfo>
+</data>
