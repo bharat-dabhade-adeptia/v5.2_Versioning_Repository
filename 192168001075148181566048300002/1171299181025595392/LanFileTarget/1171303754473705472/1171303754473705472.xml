@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_LANFILETARGET>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_entityName><![CDATA[AI_PlaceHolder_Target]]></au_entityName>
+        <au_autoFolderCreation><![CDATA[None]]></au_autoFolderCreation>
+        <au_activeVersion><![CDATA[true]]></au_activeVersion>
+        <au_userId><![CDATA[null]]></au_userId>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_fileSystem><![CDATA[UNIX]]></au_fileSystem>
+        <au_creationDate><![CDATA[2023-11-06 23:22:57.0]]></au_creationDate>
+        <au_synchronized><![CDATA[false]]></au_synchronized>
+        <au_description><![CDATA[Placeholder for Target]]></au_description>
+        <au_id><![CDATA[1171303754473705472]]></au_id>
+        <au_fileName><![CDATA[temp]]></au_fileName>
+        <au_userOwner><![CDATA[IndigoUser:192168001077140566117215700004]]></au_userOwner>
+        <au_password><![CDATA[null]]></au_password>
+        <au_projectOwner><![CDATA[Project:1171299181025595392]]></au_projectOwner>
+        <au_modifiedBy><![CDATA[IndigoUser:192168001077140566117215700004]]></au_modifiedBy>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_version><![CDATA[1]]></au_version>
+        <au_previousVersion><![CDATA[null]]></au_previousVersion>
+        <au_filePattern><![CDATA[0|0|N]]></au_filePattern>
+        <au_modifiedDate><![CDATA[2023-11-06 23:22:57.0]]></au_modifiedDate>
+        <au_filepath><![CDATA[temp]]></au_filepath>
+        <au_secure><![CDATA[false]]></au_secure>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_useWindowsService><![CDATA[false]]></au_useWindowsService>
+    </AU_LANFILETARGET>
+    <columnInfo dbtype="0">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="-7"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="-7"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_filepath" type="12"/>
+        <column name="au_fileName" type="12"/>
+        <column name="au_fileSystem" type="12"/>
+        <column name="au_secure" type="-7"/>
+        <column name="au_userId" type="12"/>
+        <column name="au_password" type="12"/>
+        <column name="au_filePattern" type="12"/>
+        <column name="au_autoFolderCreation" type="12"/>
+        <column name="au_useWindowsService" type="-7"/>
+    </columnInfo>
+</data>
