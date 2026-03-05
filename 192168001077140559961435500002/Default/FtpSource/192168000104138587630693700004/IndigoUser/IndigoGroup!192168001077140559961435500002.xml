@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_GROUPS>
-        <au_entityName><![CDATA[ac_group]]></au_entityName>
-        <au_modifiedDate><![CDATA[2014-07-18 10:38:05.0]]></au_modifiedDate>
         <au_groupOwner><![CDATA[IndigoGroup:192168001077140559961435500002]]></au_groupOwner>
-        <au_version><![CDATA[1]]></au_version>
-        <au_projectOwner><![CDATA[Default]]></au_projectOwner>
-        <au_groupInfo><![CDATA[c78pA3p1acSJV3nrvDEIRf8bXTeuI8x6FiG9Pkg+TzXcc+uWmRu8yj2k3R5AO/p4]]></au_groupInfo>
-        <au_revision><![CDATA[22f19a8ce8ecdbbce7ee25f0b1a57cc24108effb]]></au_revision>
-        <au_modifiedBy><![CDATA[IndigoUser:192168001077140566117215700004]]></au_modifiedBy>
-        <au_comment><![CDATA[]]></au_comment>
-        <au_creationDate><![CDATA[2014-07-17 17:50:14.0]]></au_creationDate>
-        <au_permissionMask><![CDATA[777]]></au_permissionMask>
-        <au_webDavFolder><![CDATA[abc]]></au_webDavFolder>
         <au_comments><![CDATA[null]]></au_comments>
-        <au_title><![CDATA[]]></au_title>
+        <au_modifiedDate><![CDATA[2014-07-18 10:38:05.0]]></au_modifiedDate>
         <au_userOwner><![CDATA[IndigoUser:192168001077140566117215700004]]></au_userOwner>
         <au_activeVersion><![CDATA[true]]></au_activeVersion>
+        <au_permissionMask><![CDATA[777]]></au_permissionMask>
+        <au_version><![CDATA[1]]></au_version>
+        <au_entityName><![CDATA[ac_group]]></au_entityName>
+        <au_groupInfo><![CDATA[c78pA3p1acSJV3nrvDEIRf8bXTeuI8x6FiG9Pkg+TzXcc+uWmRu8yj2k3R5AO/p4]]></au_groupInfo>
+        <au_creationDate><![CDATA[2014-07-17 17:50:14.0]]></au_creationDate>
+        <au_revision><![CDATA[22f19a8ce8ecdbbce7ee25f0b1a57cc24108effb]]></au_revision>
+        <au_projectOwner><![CDATA[Default]]></au_projectOwner>
         <au_id><![CDATA[192168001077140559961435500002]]></au_id>
-        <au_description><![CDATA[This group contains activities required for executing process flow of Adeptia Connect.]]></au_description>
+        <au_modifiedBy><![CDATA[IndigoUser:192168001077140566117215700004]]></au_modifiedBy>
         <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_description><![CDATA[This group contains activities required for executing process flow of Adeptia Connect.]]></au_description>
+        <au_comment><![CDATA[]]></au_comment>
+        <au_title><![CDATA[]]></au_title>
+        <au_webDavFolder><![CDATA[abc]]></au_webDavFolder>
         <au_synchronized><![CDATA[true]]></au_synchronized>
     </AU_GROUPS>
     <columnInfo dbtype="0">
