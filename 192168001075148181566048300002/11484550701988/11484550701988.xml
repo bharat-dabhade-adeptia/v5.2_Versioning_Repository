@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_PROJECT>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_projectOwner><![CDATA[null]]></au_projectOwner>
+        <au_version><![CDATA[1]]></au_version>
+        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
+        <au_synchronized><![CDATA[true]]></au_synchronized>
+        <au_projectGroup><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_projectGroup>
         <au_userOwner><![CDATA[IndigoUser:1486333228229353472]]></au_userOwner>
         <au_projectType><![CDATA[3700]]></au_projectType>
-        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
-        <au_version><![CDATA[1]]></au_version>
-        <au_entityName><![CDATA[Project_1]]></au_entityName>
-        <au_projectGroup><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_projectGroup>
-        <au_activeVersion><![CDATA[true]]></au_activeVersion>
-        <au_revision><![CDATA[12d0a053affc9959ff21afc83398741632a8a86e]]></au_revision>
-        <au_modifiedDate><![CDATA[2017-01-18 11:16:24.0]]></au_modifiedDate>
-        <au_synchronized><![CDATA[true]]></au_synchronized>
-        <au_projectOwner><![CDATA[null]]></au_projectOwner>
-        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
-        <au_comments><![CDATA[null]]></au_comments>
         <au_id><![CDATA[11484550701988]]></au_id>
-        <au_creationDate><![CDATA[2017-01-18 11:16:24.0]]></au_creationDate>
-        <au_previousVersion><![CDATA[null]]></au_previousVersion>
-        <au_description><![CDATA[Project_1]]></au_description>
         <au_permissionMask><![CDATA[777]]></au_permissionMask>
+        <au_revision><![CDATA[1e2d6302ecddd603142ba2946feeb33e980ebda8]]></au_revision>
+        <au_modifiedDate><![CDATA[2017-01-18 11:16:24.0]]></au_modifiedDate>
+        <au_activeVersion><![CDATA[true]]></au_activeVersion>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_previousVersion><![CDATA[null]]></au_previousVersion>
+        <au_creationDate><![CDATA[2017-01-18 11:16:24.0]]></au_creationDate>
+        <au_description><![CDATA[Project_1]]></au_description>
+        <au_entityName><![CDATA[Project_1]]></au_entityName>
     </AU_PROJECT>
     <columnInfo dbtype="0">
         <column name="au_id" type="12"/>
