@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_PROJECT>
-        <au_version><![CDATA[1]]></au_version>
-        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
-        <au_synchronized><![CDATA[true]]></au_synchronized>
-        <au_projectGroup><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_projectGroup>
-        <au_permissionMask><![CDATA[777]]></au_permissionMask>
-        <au_creationDate><![CDATA[2017-01-18 11:16:24.0]]></au_creationDate>
-        <au_description><![CDATA[Project_1]]></au_description>
-        <au_userOwner><![CDATA[IndigoUser:1486333228229353472]]></au_userOwner>
-        <au_entityName><![CDATA[Project_1]]></au_entityName>
-        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
-        <au_comments><![CDATA[null]]></au_comments>
-        <au_projectType><![CDATA[3700]]></au_projectType>
-        <au_activeVersion><![CDATA[true]]></au_activeVersion>
-        <au_projectOwner><![CDATA[null]]></au_projectOwner>
-        <au_id><![CDATA[11484550701988]]></au_id>
         <au_previousVersion><![CDATA[null]]></au_previousVersion>
         <au_modifiedDate><![CDATA[2017-01-18 11:16:24.0]]></au_modifiedDate>
-        <au_revision><![CDATA[6ba4ff7a849b713d5b068bae106b38f6502d657e]]></au_revision>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_version><![CDATA[1]]></au_version>
+        <au_userOwner><![CDATA[IndigoUser:1486411560473669632]]></au_userOwner>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_description><![CDATA[Project_1]]></au_description>
+        <au_creationDate><![CDATA[2017-01-18 11:16:24.0]]></au_creationDate>
+        <au_projectOwner><![CDATA[null]]></au_projectOwner>
+        <au_synchronized><![CDATA[false]]></au_synchronized>
+        <au_modifiedBy><![CDATA[IndigoUser:1486411560473669632]]></au_modifiedBy>
+        <au_entityName><![CDATA[Project_1]]></au_entityName>
+        <au_permissionMask><![CDATA[777]]></au_permissionMask>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_projectGroup><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_projectGroup>
+        <au_activeVersion><![CDATA[true]]></au_activeVersion>
+        <au_id><![CDATA[11484550701988]]></au_id>
+        <au_projectType><![CDATA[3700]]></au_projectType>
     </AU_PROJECT>
     <columnInfo dbtype="0">
         <column name="au_id" type="12"/>
