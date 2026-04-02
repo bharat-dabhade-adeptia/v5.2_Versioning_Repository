@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AC_TRANSACTION_METADATA>
+        <ALIAS_NAME><![CDATA[null]]></ALIAS_NAME>
+        <REFERENCE_FIELD><![CDATA[null]]></REFERENCE_FIELD>
+        <TARGET_FILE_EXTENSION><![CDATA[null]]></TARGET_FILE_EXTENSION>
+        <ACTIVITY_ID><![CDATA[1488845452871340032]]></ACTIVITY_ID>
+        <EXTERNAL_ID><![CDATA[null]]></EXTERNAL_ID>
+        <TYPE><![CDATA[WebForm]]></TYPE>
+        <ACCOUNT_ID><![CDATA[null]]></ACCOUNT_ID>
+        <SEQUENCE_TYPE><![CDATA[Trigger]]></SEQUENCE_TYPE>
+        <DISCRIMINATOR_TYPE><![CDATA[null]]></DISCRIMINATOR_TYPE>
+        <OPERATION><![CDATA[null]]></OPERATION>
+        <SEQUENCE_ID><![CDATA[1]]></SEQUENCE_ID>
+        <PARAMETER_JSON><![CDATA[{"frevvoFormId":"","frevvoAppId":"","permissionMask":"770","schemaTypeId":"JSONSchema:1488845452628070400"}]]></PARAMETER_JSON>
+        <FILE_NAME><![CDATA[null]]></FILE_NAME>
+        <APP_TYPE><![CDATA[null]]></APP_TYPE>
+        <TRANSACTION_ID><![CDATA[1488845567795269632]]></TRANSACTION_ID>
+        <ID><![CDATA[1488845671197446144]]></ID>
+        <IS_UNIQUE_FILE><![CDATA[0]]></IS_UNIQUE_FILE>
+        <SERVICE_VARIABLE><![CDATA[null]]></SERVICE_VARIABLE>
+    </AC_TRANSACTION_METADATA>
+    <columnInfo dbtype="0">
+        <column name="ID" type="2"/>
+        <column name="ACCOUNT_ID" type="12"/>
+        <column name="ACTIVITY_ID" type="12"/>
+        <column name="DISCRIMINATOR_TYPE" type="12"/>
+        <column name="FILE_NAME" type="12"/>
+        <column name="IS_UNIQUE_FILE" type="-6"/>
+        <column name="PARAMETER_JSON" type="12"/>
+        <column name="SEQUENCE_ID" type="4"/>
+        <column name="SEQUENCE_TYPE" type="12"/>
+        <column name="SERVICE_VARIABLE" type="12"/>
+        <column name="TARGET_FILE_EXTENSION" type="12"/>
+        <column name="APP_TYPE" type="12"/>
+        <column name="OPERATION" type="12"/>
+        <column name="REFERENCE_FIELD" type="12"/>
+        <column name="EXTERNAL_ID" type="12"/>
+        <column name="TYPE" type="12"/>
+        <column name="TRANSACTION_ID" type="2"/>
+        <column name="ALIAS_NAME" type="12"/>
+    </columnInfo>
+</data>
