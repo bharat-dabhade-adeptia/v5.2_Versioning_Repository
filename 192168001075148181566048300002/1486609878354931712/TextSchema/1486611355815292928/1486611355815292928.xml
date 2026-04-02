@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_TEXTSCHEMA>
+        <au_json><![CDATA[null]]></au_json>
+        <AU_QUEUECAPACITY><![CDATA[1000]]></AU_QUEUECAPACITY>
+        <au_description><![CDATA[Drv_RM_withKB_TrgtLayout]]></au_description>
+        <au_advancedSchema><![CDATA[true]]></au_advancedSchema>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <xsdFilePath><![CDATA[]]></xsdFilePath>
+        <au_synchronized><![CDATA[false]]></au_synchronized>
+        <au_encryptSecretKey><![CDATA[null]]></au_encryptSecretKey>
+        <au_entityName><![CDATA[Drv_RM_withKB_TrgtLayout]]></au_entityName>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_projectOwner><![CDATA[Project:1486609878354931712]]></au_projectOwner>
+        <au_userOwner><![CDATA[IndigoUser:1486428908601552896]]></au_userOwner>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_decryptSecretKey><![CDATA[null]]></au_decryptSecretKey>
+        <au_headerPresent><![CDATA[true]]></au_headerPresent>
+        <au_quotesHandlingOn><![CDATA[false]]></au_quotesHandlingOn>
+        <AU_ENRICHED_JSON><![CDATA[[
+  {
+    "xpath": "/Root/Record/@recordNumber",
+    "type": "string",
+    "business_context": "Required record identifier for each Record in the file (source record number).",
+    "metadata": {
+      "required": true,
+      "unique": true,
+      "max_length": null,
+      "pattern": null,
+      "enum_values": null,
+      "min_value": null,
+      "max_value": null,
+      "format_type": "text",
+      "default_value": null,
+      "examples": [
+        "1",
+        "0001",
+        "rec-12345"
+      ]
+    }
+  },
+  {
+    "xpath": "/Root/Record/CoverageCode",
+    "type": "string",
+    "business_context": "Benefit or coverage plan code associated with the employee.",
+    "metadata": {
+      "required": false,
+      "unique": false,
+      "max_length": null,
+      "pattern": null,
+      "enum_values": null,
+      "min_value": null,
+      "max_value": null,
+      "format_type": "text",
+      "default_value": null,
+      "examples": [
+        "AWQ"
+      ]
+    }
+  },
+  {
+    "xpath": "/Root/Record/EffectiveDate",
+    "type": "date",
+    "business_context": "Date when the record/coverage becomes effective.",
+    "metadata": {
+      "required": false,
+      "unique": false,
+      "max_length": null,
+      "pattern": null,
+      "enum_values": null,
+      "min_value": null,
+      "max_value": null,
+      "format_type": "date",
+      "default_value": null,
+      "examples": [
+        "2023-01-01"
+      ]
+    }
+  },
+  {
+    "xpath": "/Root/Record/EmployeeAddress1",
+    "type": "string",
+    "business_context": "Primary street address line for the employee.",
+    "metadata": {
+      "required": false,
+      "unique": false,
+      "max_length": null,
+      "pattern": null,
+      "enum_values": null,
+      "min_value": null,
+      "max_value": null,
+      "format_type": "text",
+      "default_value": null,
+      "examples": [
+        "123 Main St"
+      ]
+    }
+  },
+  {
+    "xpath": "/Root/Record/EmployeeAddress2",
+    "type": "string",
+    "business_context": "Secondary address line (apartment, suite) for the employee.",
+    "metadata": {
+      "required": false,
+      "unique": false,
+      "max_length": null,
+      "pattern": null,
+      "enum_values": null,
+      "min_value": null,
+      "max_value": null,
+      "format_type": "text",
+      "default_value": null,
+      "examples": [
+        "Apt 4B"
+      ]
+    }
+  },
+  {
+    "xpath": "/Root/Record/EmployeeCity",
+    "type": "string",
+    "business_context": "City for the employee's address.",
+    "metadata": {
+      "required": false,
+      "unique": false,
+      "max_length": null,
+      "pattern": null,
+      "enum_values": null,
+      "min_value": null,
+      "max_value": null,
+      "format_type": "text",
+      "default_value": null,
+      "examples": [
+        "San Francisco"
+      ]
+    }
+  },
+  {
+    "xpath": "/Root/Record/EmployeeState",
+    "type": "string",
+    "business_context": "State or province code for the employee's address (US 2-letter code typical).",
+    "metadata": {
+      "required": false,
+      "unique": false,
+      "max_length": 2,
+      "pattern": "^[A-Z]{2}$",
+      "enum_values": null,
+      "min_value": null,
+      "max_value": null,
+      "format_type": "text",
+      "default_value": null,
+      "examples": [
+        "CA",
+        "NY"
+      ]
+    }
+  },
+  {
+    "xpath": "/Root/Record/FirstName",
+    "type": "string",
+    "business_context": "Employee given (first) name.",
+    "metadata": {
+      "required": false,
+      "unique": false,
+      "max_length": null,
+      "pattern": null,
+      "enum_values": null,
+      "min_value": null,
+      "max_value": null,
+      "format_type": "text",
+      "default_value": null,
+      "examples": [
+        "John"
+      ]
+    }
+  },
+  {
+    "xpath": "/Root/Record/HireDate",
+    "type": "date",
+    "business_context": "Employee hire or start date.",
+    "metadata": {
+      "required": false,
+      "unique": false,
+      "max_length": null,
+      "pattern": null,
+      "enum_values": null,
+      "min_value": null,
+      "max_value": null,
+      "format_type": "date",
+      "default_value": null,
+      "examples": [
+        "2020-06-15"
+      ]
+    }
+  },
+  {
+    "xpath": "/Root/Record/LastName",
+    "type": "string",
+    "business_context": "Employee family (last) name.",
+    "metadata": {
+      "required": false,
+      "unique": false,
+      "max_length": null,
+      "pattern": null,
+      "enum_values": null,
+      "min_value": null,
+      "max_value": null,
+      "format_type": "text",
+      "default_value": null,
+      "examples": [
+        "Doe"
+      ]
+    }
+  },
+  {
+    "xpath": "/Root/Record/ZipCode",
+    "type": "string",
+    "business_context": "Postal (ZIP) code for the employee address (US 5- or 9-digit format typical).",
+    "metadata": {
+      "required": false,
+      "unique": false,
+      "max_length": 10,
+      "pattern": "^\\d{5}(-\\d{4})?$",
+      "enum_values": null,
+      "min_value": null,
+      "max_value": null,
+      "format_type": "text",
+      "default_value": null,
+      "examples": [
+        "94105",
+        "94105-1234"
+      ]
+    }
+  }
+]]]></AU_ENRICHED_JSON>
+        <au_creationDate><![CDATA[2026-03-26 06:22:47.143]]></au_creationDate>
+        <au_activeVersion><![CDATA[true]]></au_activeVersion>
+        <au_modifiedDate><![CDATA[2026-03-26 06:22:47.143]]></au_modifiedDate>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_encodingUsed><![CDATA[UTF-8]]></au_encodingUsed>
+        <au_id><![CDATA[1486611355815292928]]></au_id>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_modifiedBy><![CDATA[IndigoUser:1486428908601552896]]></au_modifiedBy>
+        <au_encloseFieldsInQuotes><![CDATA[false]]></au_encloseFieldsInQuotes>
+        <au_version><![CDATA[1]]></au_version>
+        <au_xsd><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Root">
+		<xs:annotation>
+			<xs:appinfo>
+				<XSDVersion>1</XSDVersion>
+				<fieldSeparator>,</fieldSeparator>
+				<recordSeparator>\n</recordSeparator>
+				<allowDiscontinousOrder>false</allowDiscontinousOrder>
+				<allowIgnoreCase>false</allowIgnoreCase>
+				<allowMoreFields>false</allowMoreFields>
+				<allowLessFields>false</allowLessFields>
+				<removeLastNewLineSeperator>false</removeLastNewLineSeperator>
+				<removeInvalidChar>false</removeInvalidChar>
+				<enclosedChar></enclosedChar>
+				<startRowNumber>1</startRowNumber>
+				<skippedBottomRows>0</skippedBottomRows>
+				<arrayLayout>false</arrayLayout>
+			</xs:appinfo>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Record" minOccurs="1" maxOccurs="unbounded">
+<xs:complexType><xs:sequence>
+<xs:element name="EmployeeAddress1" minOccurs="0" maxOccurs="1" type="xs:string">
+<xs:annotation><xs:appinfo><format>AAAAAAAA</format><originalName>[ABPM_._ESCAPE_._CDATA_._START]Employee+Address+1[ABPM_._ESCAPE_._CDATA_._END]</originalName><parent> </parent>
+</xs:appinfo></xs:annotation></xs:element>
+<xs:element name="EmployeeAddress2" minOccurs="0" maxOccurs="1" type="xs:string">
+<xs:annotation><xs:appinfo><format>AAAAAAAA</format><originalName>[ABPM_._ESCAPE_._CDATA_._START]Employee+Address+2[ABPM_._ESCAPE_._CDATA_._END]</originalName><parent> </parent>
+</xs:appinfo></xs:annotation></xs:element>
+<xs:element name="EmployeeCity" minOccurs="0" maxOccurs="1" type="xs:string">
+<xs:annotation><xs:appinfo><format>AAAAAAAA</format><originalName>[ABPM_._ESCAPE_._CDATA_._START]Employee+City[ABPM_._ESCAPE_._CDATA_._END]</originalName><parent> </parent>
+</xs:appinfo></xs:annotation></xs:element>
+<xs:element name="EmployeeState" minOccurs="0" maxOccurs="1" type="xs:string">
+<xs:annotation><xs:appinfo><format>AAAAAAAA</format><originalName>[ABPM_._ESCAPE_._CDATA_._START]Employee+State[ABPM_._ESCAPE_._CDATA_._END]</originalName><parent> </parent>
+</xs:appinfo></xs:annotation></xs:element>
+<xs:element name="ZipCode" minOccurs="0" maxOccurs="1" type="xs:string">
+<xs:annotation><xs:appinfo><format>AAAAAAAA</format><originalName>[ABPM_._ESCAPE_._CDATA_._START]Zip+Code[ABPM_._ESCAPE_._CDATA_._END]</originalName><parent> </parent>
+</xs:appinfo></xs:annotation></xs:element>
+<xs:element name="CoverageCode" minOccurs="0" maxOccurs="1" type="xs:string">
+<xs:annotation><xs:appinfo><format>AAAAAAAA</format><originalName>[ABPM_._ESCAPE_._CDATA_._START]Coverage+Code[ABPM_._ESCAPE_._CDATA_._END]</originalName><parent> </parent>
+</xs:appinfo></xs:annotation></xs:element>
+<xs:element name="EffectiveDate" minOccurs="0" maxOccurs="1" type="xs:string">
+<xs:annotation><xs:appinfo><format>AAAAAAAA</format><originalName>[ABPM_._ESCAPE_._CDATA_._START]Effective+Date[ABPM_._ESCAPE_._CDATA_._END]</originalName><parent> </parent>
+</xs:appinfo></xs:annotation></xs:element>
+<xs:element name="HireDate" minOccurs="0" maxOccurs="1" type="xs:string">
+<xs:annotation><xs:appinfo><format>AAAAAAAA</format><originalName>[ABPM_._ESCAPE_._CDATA_._START]Hire+Date[ABPM_._ESCAPE_._CDATA_._END]</originalName><parent> </parent>
+</xs:appinfo></xs:annotation></xs:element>
+<xs:element name="FirstName" minOccurs="0" maxOccurs="1" type="xs:string">
+<xs:annotation><xs:appinfo><format>AAAAAAAA</format><originalName>[ABPM_._ESCAPE_._CDATA_._START]First+Name[ABPM_._ESCAPE_._CDATA_._END]</originalName><parent> </parent>
+</xs:appinfo></xs:annotation></xs:element>
+<xs:element name="LastName" minOccurs="0" maxOccurs="1" type="xs:string">
+<xs:annotation><xs:appinfo><format>AAAAAAAA</format><originalName>[ABPM_._ESCAPE_._CDATA_._START]Last+Name[ABPM_._ESCAPE_._CDATA_._END]</originalName><parent> </parent>
+</xs:appinfo></xs:annotation></xs:element>
+</xs:sequence>
+<xs:attribute name="recordNumber" type="xs:string" use="required"/>
+</xs:complexType></xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>]]></au_xsd>
+        <AU_OPTIMIZE_PROCESSING><![CDATA[false]]></AU_OPTIMIZE_PROCESSING>
+        <au_reusable><![CDATA[true]]></au_reusable>
+    </AU_TEXTSCHEMA>
+    <columnInfo dbtype="0">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="-7"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="-7"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_xsd" type="12"/>
+        <column name="xsdFilePath" type="12"/>
+        <column name="au_encodingUsed" type="12"/>
+        <column name="au_reusable" type="-7"/>
+        <column name="au_advancedSchema" type="-7"/>
+        <column name="au_headerPresent" type="-7"/>
+        <column name="au_quotesHandlingOn" type="-7"/>
+        <column name="au_encloseFieldsInQuotes" type="-7"/>
+        <column name="au_encryptSecretKey" type="12"/>
+        <column name="au_decryptSecretKey" type="12"/>
+        <column name="au_json" type="12"/>
+        <column name="AU_OPTIMIZE_PROCESSING" type="-7"/>
+        <column name="AU_QUEUECAPACITY" type="4"/>
+        <column name="AU_ENRICHED_JSON" type="12"/>
+    </columnInfo>
+</data>
