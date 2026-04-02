@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AC_TEMPLATE_METADATA>
+        <SERVICE_VARIABLE><![CDATA[null]]></SERVICE_VARIABLE>
+        <APP_TYPE><![CDATA[null]]></APP_TYPE>
+        <EXTERNAL_ID><![CDATA[null]]></EXTERNAL_ID>
+        <TARGET_FILE_EXTENSION><![CDATA[null]]></TARGET_FILE_EXTENSION>
+        <TYPE><![CDATA[IndigoTransaction]]></TYPE>
+        <SEQUENCE_ID><![CDATA[-1]]></SEQUENCE_ID>
+        <SEQUENCE_TYPE><![CDATA[IndigoTransaction]]></SEQUENCE_TYPE>
+        <ACTIVITY_ID><![CDATA[1481002064032501760]]></ACTIVITY_ID>
+        <TRANSACTION_TEMPLATE_ID><![CDATA[1481002313568423936]]></TRANSACTION_TEMPLATE_ID>
+        <ACCOUNT_ID><![CDATA[null]]></ACCOUNT_ID>
+        <ID><![CDATA[1481002390072528896]]></ID>
+        <IS_UNIQUE_FILE><![CDATA[0]]></IS_UNIQUE_FILE>
+        <PARAMETER_JSON><![CDATA[[{"id":"1473411371818299392","name":"KG_CSTSource1","type":"FileSource","baseType":"Source","trigger":true,"action":false,"include":true,"label":"KG_CSTSource1","serviceDisplayName":"Source","triggerLayout":false,"actionLayout":false,"eventContextEnabled":true,"references":null,"sequenceId":1,"formType":"TEMPLATE","displayName":"KG_CSTSource1","description":"","override":true,"triggerOrAction":false},{"id":"1473411761259425792","name":"KGCSTSource1","type":"TextSchema","baseType":"SourceSchema","trigger":false,"action":false,"include":true,"label":"KGCSTSource1","serviceDisplayName":"Source Layout","triggerLayout":false,"actionLayout":false,"eventContextEnabled":false,"references":[{"id":"1473411371818299392","name":"KG_CSTSource1","type":"FileSource","baseType":"Source","trigger":true,"action":false,"include":true,"label":"KG_CSTSource1","serviceDisplayName":"Source","triggerLayout":false,"actionLayout":false,"eventContextEnabled":true,"references":null,"sequenceId":1,"formType":"TEMPLATE"},{"id":"1473412099016257536","name":"KG_CSTMap1","type":"DataMapping","baseType":"DataMapping","trigger":false,"action":false,"include":true,"label":"KG_CSTMap1","serviceDisplayName":"Mapping","triggerLayout":false,"actionLayout":false,"eventContextEnabled":false,"references":null,"sequenceId":6,"formType":"TEMPLATE"}],"sequenceId":2,"formType":"TEMPLATE","displayName":"KGCSTSource1","description":"","override":true,"triggerOrAction":false},{"id":"111111000104138587630693700004","name":"Routing","type":"ContentBasedRouting","baseType":"ContentBasedRouting","trigger":false,"action":false,"include":true,"label":"Routing","serviceDisplayName":"Content Based Routing","triggerLayout":false,"actionLayout":false,"eventContextEnabled":false,"references":[{"id":"1473411761259425792","name":"KGCSTSource1","type":"TextSchema","baseType":"SourceSchema","trigger":false,"action":false,"include":true,"label":"KGCSTSource1","serviceDisplayName":"Source Layout","triggerLayout":false,"actionLayout":false,"eventContextEnabled":false,"references":[{"id":"1473411371818299392","name":"KG_CSTSource1","type":"FileSource","baseType":"Source","trigger":true,"action":false,"include":true,"label":"KG_CSTSource1","serviceDisplayName":"Source","triggerLayout":false,"actionLayout":false,"eventContextEnabled":true,"references":null,"sequenceId":1,"formType":"TEMPLATE"},{"id":"1473412099016257536","name":"KG_CSTMap1","type":"DataMapping","baseType":"DataMapping","trigger":false,"action":false,"include":true,"label":"KG_CSTMap1","serviceDisplayName":"Mapping","triggerLayout":false,"actionLayout":false,"eventContextEnabled":false,"references":null,"sequenceId":6,"formType":"TEMPLATE"}],"sequenceId":2,"formType":"TEMPLATE"}],"sequenceId":3,"formType":"TEMPLATE","displayName":"Routing","description":"","override":true,"triggerOrAction":false},{"id":"1473411642644508672","name":"KG_CSTTarget1","type":"FileTarget","baseType":"Target","trigger":false,"action":true,"include":true,"label":"KG_CSTTarget1","serviceDisplayName":"Target","triggerLayout":false,"actionLayout":false,"eventContextEnabled":false,"references":null,"sequenceId":4,"formType":"TRANSACTION","displayName":"KG_CSTTarget1","description":"","override":true,"triggerOrAction":false},{"id":"1473411872186183680","name":"KGCSTTarget1","type":"TextSchema","baseType":"TargetSchema","trigger":false,"action":false,"include":true,"label":"KGCSTTarget1","serviceDisplayName":"Target Layout","triggerLayout":false,"actionLayout":false,"eventContextEnabled":false,"references":[{"id":"1473411642644508672","name":"KG_CSTTarget1","type":"FileTarget","baseType":"Target","trigger":false,"action":true,"include":true,"label":"KG_CSTTarget1","serviceDisplayName":"Target","triggerLayout":false,"actionLayout":false,"eventContextEnabled":false,"references":null,"sequenceId":4,"formType":"TEMPLATE"},{"id":"1473412099016257536","name":"KG_CSTMap1","type":"DataMapping","baseType":"DataMapping","trigger":false,"action":false,"include":true,"label":"KG_CSTMap1","serviceDisplayName":"Mapping","triggerLayout":false,"actionLayout":false,"eventContextEnabled":false,"references":null,"sequenceId":6,"formType":"TEMPLATE"}],"sequenceId":5,"formType":"TRANSACTION","displayName":"KGCSTTarget1","description":"","override":true,"triggerOrAction":false},{"id":"1473412099016257536","name":"KG_CSTMap1","type":"DataMapping","baseType":"DataMapping","trigger":false,"action":false,"include":true,"label":"KG_CSTMap1","serviceDisplayName":"Mapping","triggerLayout":false,"actionLayout":false,"eventContextEnabled":false,"references":null,"sequenceId":6,"formType":"TRANSACTION","displayName":"KG_CSTMap1","description":"","override":true,"triggerOrAction":false}]]]></PARAMETER_JSON>
+        <OPERATION><![CDATA[null]]></OPERATION>
+        <TRANSACTION_ENTITY_JSON><![CDATA[null]]></TRANSACTION_ENTITY_JSON>
+        <REFERENCE_FIELD><![CDATA[null]]></REFERENCE_FIELD>
+        <FILE_NAME><![CDATA[null]]></FILE_NAME>
+        <ALIAS_NAME><![CDATA[null]]></ALIAS_NAME>
+        <DISCRIMINATOR_TYPE><![CDATA[null]]></DISCRIMINATOR_TYPE>
+    </AC_TEMPLATE_METADATA>
+    <AC_TEMPLATE_METADATA>
+        <SERVICE_VARIABLE><![CDATA[null]]></SERVICE_VARIABLE>
+        <APP_TYPE><![CDATA[null]]></APP_TYPE>
+        <EXTERNAL_ID><![CDATA[null]]></EXTERNAL_ID>
+        <TARGET_FILE_EXTENSION><![CDATA[null]]></TARGET_FILE_EXTENSION>
+        <TYPE><![CDATA[FTPEvent]]></TYPE>
+        <SEQUENCE_ID><![CDATA[null]]></SEQUENCE_ID>
+        <SEQUENCE_TYPE><![CDATA[Trigger]]></SEQUENCE_TYPE>
+        <ACTIVITY_ID><![CDATA[1481002790381096960]]></ACTIVITY_ID>
+        <TRANSACTION_TEMPLATE_ID><![CDATA[1481002313568423936]]></TRANSACTION_TEMPLATE_ID>
+        <ACCOUNT_ID><![CDATA[1477742413701799936]]></ACCOUNT_ID>
+        <ID><![CDATA[1481002668637229056]]></ID>
+        <IS_UNIQUE_FILE><![CDATA[0]]></IS_UNIQUE_FILE>
+        <PARAMETER_JSON><![CDATA[{"deleteOnSuccess":false}]]></PARAMETER_JSON>
+        <OPERATION><![CDATA[null]]></OPERATION>
+        <TRANSACTION_ENTITY_JSON><![CDATA[null]]></TRANSACTION_ENTITY_JSON>
+        <REFERENCE_FIELD><![CDATA[null]]></REFERENCE_FIELD>
+        <FILE_NAME><![CDATA[null]]></FILE_NAME>
+        <ALIAS_NAME><![CDATA[KG_CSTSource1]]></ALIAS_NAME>
+        <DISCRIMINATOR_TYPE><![CDATA[null]]></DISCRIMINATOR_TYPE>
+    </AC_TEMPLATE_METADATA>
+    <AC_TEMPLATE_METADATA>
+        <SERVICE_VARIABLE><![CDATA[null]]></SERVICE_VARIABLE>
+        <APP_TYPE><![CDATA[null]]></APP_TYPE>
+        <EXTERNAL_ID><![CDATA[null]]></EXTERNAL_ID>
+        <TARGET_FILE_EXTENSION><![CDATA[null]]></TARGET_FILE_EXTENSION>
+        <TYPE><![CDATA[AdvanceTextSchema]]></TYPE>
+        <SEQUENCE_ID><![CDATA[null]]></SEQUENCE_ID>
+        <SEQUENCE_TYPE><![CDATA[Schema]]></SEQUENCE_TYPE>
+        <ACTIVITY_ID><![CDATA[1481002950486069248]]></ACTIVITY_ID>
+        <TRANSACTION_TEMPLATE_ID><![CDATA[1481002313568423936]]></TRANSACTION_TEMPLATE_ID>
+        <ACCOUNT_ID><![CDATA[null]]></ACCOUNT_ID>
+        <ID><![CDATA[1481002973545672704]]></ID>
+        <IS_UNIQUE_FILE><![CDATA[0]]></IS_UNIQUE_FILE>
+        <PARAMETER_JSON><![CDATA[null]]></PARAMETER_JSON>
+        <OPERATION><![CDATA[null]]></OPERATION>
+        <TRANSACTION_ENTITY_JSON><![CDATA[null]]></TRANSACTION_ENTITY_JSON>
+        <REFERENCE_FIELD><![CDATA[null]]></REFERENCE_FIELD>
+        <FILE_NAME><![CDATA[null]]></FILE_NAME>
+        <ALIAS_NAME><![CDATA[KGCSTSource1]]></ALIAS_NAME>
+        <DISCRIMINATOR_TYPE><![CDATA[null]]></DISCRIMINATOR_TYPE>
+    </AC_TEMPLATE_METADATA>
+    <AC_TEMPLATE_METADATA>
+        <SERVICE_VARIABLE><![CDATA[null]]></SERVICE_VARIABLE>
+        <APP_TYPE><![CDATA[null]]></APP_TYPE>
+        <EXTERNAL_ID><![CDATA[null]]></EXTERNAL_ID>
+        <TARGET_FILE_EXTENSION><![CDATA[null]]></TARGET_FILE_EXTENSION>
+        <TYPE><![CDATA[ContentBasedRouting]]></TYPE>
+        <SEQUENCE_ID><![CDATA[null]]></SEQUENCE_ID>
+        <SEQUENCE_TYPE><![CDATA[Routing]]></SEQUENCE_TYPE>
+        <ACTIVITY_ID><![CDATA[1481003054110543872]]></ACTIVITY_ID>
+        <TRANSACTION_TEMPLATE_ID><![CDATA[1481002313568423936]]></TRANSACTION_TEMPLATE_ID>
+        <ACCOUNT_ID><![CDATA[null]]></ACCOUNT_ID>
+        <ID><![CDATA[1481003067662340096]]></ID>
+        <IS_UNIQUE_FILE><![CDATA[0]]></IS_UNIQUE_FILE>
+        <PARAMETER_JSON><![CDATA[null]]></PARAMETER_JSON>
+        <OPERATION><![CDATA[null]]></OPERATION>
+        <TRANSACTION_ENTITY_JSON><![CDATA[null]]></TRANSACTION_ENTITY_JSON>
+        <REFERENCE_FIELD><![CDATA[null]]></REFERENCE_FIELD>
+        <FILE_NAME><![CDATA[null]]></FILE_NAME>
+        <ALIAS_NAME><![CDATA[Routing]]></ALIAS_NAME>
+        <DISCRIMINATOR_TYPE><![CDATA[null]]></DISCRIMINATOR_TYPE>
+    </AC_TEMPLATE_METADATA>
+    <columnInfo dbtype="0">
+        <column name="ID" type="2"/>
+        <column name="ACCOUNT_ID" type="12"/>
+        <column name="ACTIVITY_ID" type="12"/>
+        <column name="DISCRIMINATOR_TYPE" type="12"/>
+        <column name="FILE_NAME" type="12"/>
+        <column name="IS_UNIQUE_FILE" type="-6"/>
+        <column name="PARAMETER_JSON" type="12"/>
+        <column name="SEQUENCE_ID" type="4"/>
+        <column name="SEQUENCE_TYPE" type="12"/>
+        <column name="SERVICE_VARIABLE" type="12"/>
+        <column name="TARGET_FILE_EXTENSION" type="12"/>
+        <column name="TRANSACTION_ENTITY_JSON" type="12"/>
+        <column name="APP_TYPE" type="12"/>
+        <column name="TYPE" type="12"/>
+        <column name="OPERATION" type="12"/>
+        <column name="REFERENCE_FIELD" type="12"/>
+        <column name="EXTERNAL_ID" type="12"/>
+        <column name="TRANSACTION_TEMPLATE_ID" type="2"/>
+        <column name="ALIAS_NAME" type="12"/>
+    </columnInfo>
+</data>
